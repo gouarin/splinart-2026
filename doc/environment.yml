@@ -1,0 +1,12 @@
+name: splinart
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - sphinx
+  - nbsphinx
+  - pydata-sphinx-theme
+  - numpydoc
+  - nbsphinx-link
+  - myst-parser
+  - docutils < 0.21
