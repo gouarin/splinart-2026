@@ -13452,7 +13452,7 @@ packages:
   size: 349143
   timestamp: 1714723445995
 - pypi: .
-  name: splinart
+  name: splinart-2026
   requires_dist:
   - numpy>=2.0.0,<2.1
   - matplotlib>=3.8.4,<3.9
