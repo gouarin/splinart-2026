@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "splinart"
+name = "splinart-2026"
 dynamic = ["version"]
 requires-python = ">=3.8"
 dependencies = ["numpy>=2.0.0,<2.1", "matplotlib>=3.8.4,<3.9"]
@@ -44,7 +44,7 @@ version = { attr = "splinart.version.__version__" }
 include = ["splinart*"]
 
 [project.scripts]
-splinart = "splinart.scripts.cli_splinart:main"
+splinart-2026 = "splinart.scripts.cli_splinart:main"
 
 [project.urls]
 Source = "https://github.com/gouarin/splinart"
