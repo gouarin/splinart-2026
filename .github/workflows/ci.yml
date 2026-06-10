@@ -23,9 +23,9 @@ jobs:
                   cache: true
 
             - name: check ruff
-                run: pixi run -e linter ruff check .
+              run: pixi run -e linter ruff check .
             - name: check pylint
-                run: pixi run -e linter pylint .
+              run: pixi run -e linter pylint .
     pytest:
         needs: [precommit, linter]
         runs-on: ${{ matrix.os }}
