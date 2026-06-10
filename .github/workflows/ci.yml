@@ -25,7 +25,7 @@ jobs:
             - name: check ruff
               run: pixi run -e linter ruff check .
             - name: check pylint
-              run: pixi run -e linter pylint .
+              run: pixi run -e linter pylint splinart
     pytest:
         needs: [precommit, linter]
         runs-on: ${{ matrix.os }}
