@@ -2,7 +2,7 @@ name: splinart
 channels:
   - conda-forge
 dependencies:
-  - notebook
+  - pip
   - sphinx
   - nbsphinx
   - pydata-sphinx-theme
