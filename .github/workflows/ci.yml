@@ -22,6 +22,7 @@ jobs:
                   cache: true
 
             - name: Install fortran compiler
+              if: runner.os == 'macOS'
               run: pixi add fortran-compiler
             - name: Run tests
               run: pixi run pytest
