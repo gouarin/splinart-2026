@@ -49,7 +49,7 @@ splinart = "splinart.scripts.cli_splinart:main"
 [project.urls]
 Source = "https://github.com/gouarin/splinart"
 
-[tool.pixi.project]
+[tool.pixi.workspace]
 channels = ["conda-forge"]
 platforms = ["osx-arm64", "linux-64", "osx-64", "win-64"]
 
